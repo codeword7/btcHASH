@@ -69,10 +69,13 @@
 	<div class="col-lg-12 bg-dark p-5 mt-4">
 		<div class="input-group p-3">
 		  <input type="text" id="nano" class="form-control" placeholder="nano id" aria-label="nano id" aria-describedby="basic-addon2">
-		  <div class="input-group-append">
+		  <div class="ml-5">
               <button class="btn btn-outline-success" id="btnSign" type="button" onclick="return storeAndDisplay()">Log in</button>
 		    <button class="btn btn-outline-danger" id="btnSign1" type="button" style="visibility: hidden" onclick="return logOut()">Log out</button>
 		  </div>
+		</div>
+		<div class="col-lg-12 text-center text-white">
+		    <p id="earning">Last seen</p>
 		</div>
 	</div>
 
@@ -111,7 +114,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-2 col-12 mb-3">
+			<div class="col-lg-2 col-6 mb-3">
 				<div class="card" style="height:200px;">
 					<img class="card-img-top" class="img-fluid" src="assets/user.png" alt="Card image cap">
 					<div class="card-body p-2">
